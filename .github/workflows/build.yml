@@ -1,0 +1,11 @@
+name: Simple Local
+
+on:
+  push:
+
+jobs:
+  first-job:
+    runs-on: ubunut-latest
+    steps:
+      - name: Diga oi
+        run: echo "Hello World" 
